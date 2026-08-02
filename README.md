@@ -52,7 +52,7 @@ npm install
 ## Run Project
 
 ```bash
-npm run dev
+npm start
 ```
 
 ## Environment Variables
