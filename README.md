@@ -149,6 +149,13 @@ http://localhost:3000/api
 |---------|----------|
 | GET | /dashboard |
 
+
+## ⚠️ Known Issues / Limitations
+
+- Dashboard UI is currently limited and does not display dynamic database statistics.
+- Frontend data rendering can be extended in future improvements.
+- Some advanced features may require additional integration.
+
 ## Project Structure
 
 ```
