@@ -41,6 +41,8 @@ A Hospital Management REST API built using Node.js, Express.js, MongoDB, JWT Aut
  ![alt text](<Screenshot 2026-08-02 160040.png>) 
  
  ![alt text](<Screenshot 2026-08-02 154426.png>)
+
+ 
 ## Installation
 
 ```bash
