@@ -42,7 +42,7 @@ A Hospital Management REST API built using Node.js, Express.js, MongoDB, JWT Aut
  
  ![alt text](<Screenshot 2026-08-02 154426.png>)
 
- 
+
 ## Installation
 
 ```bash
@@ -162,104 +162,3 @@ public/
 app.js
 package.json
 ```
-
-
-Hospital-Management-System/
-│
-├── config/
-│   ├── db.js
-│   └── multer.js
-│
-├── controllers/
-│   ├── authController.js
-│   ├── departmentController.js
-│   ├── doctorController.js
-│   ├── patientController.js
-│   ├── appointmentController.js
-│   ├── prescriptionController.js
-│   ├── reportController.js
-│   └── dashboardController.js
-│
-├── middleware/
-│   ├── authMiddleware.js
-│   ├── roleMiddleware.js
-│   └── uploadMiddleware.js
-│
-├── models/
-│   ├── User.js
-│   ├── Department.js
-│   ├── Doctor.js
-│   ├── Patient.js
-│   ├── Appointment.js
-│   ├── Prescription.js
-│   └── MedicalReport.js
-│
-├── routes/
-│   ├── authRoutes.js
-│   ├── departmentRoutes.js
-│   ├── doctorRoutes.js
-│   ├── patientRoutes.js
-│   ├── appointmentRoutes.js
-│   ├── prescriptionRoutes.js
-│   ├── reportRoutes.js
-│   └── dashboardRoutes.js
-│
-├── views/
-│   ├── auth/
-│   │     login.ejs
-│   │     register.ejs
-│   │
-│   ├── department/
-│   │     add.ejs
-│   │     edit.ejs
-│   │     list.ejs
-│   │
-│   ├── doctor/
-│   │     add.ejs
-│   │     edit.ejs
-│   │     list.ejs
-│   │
-│   ├── patient/
-│   │     add.ejs
-│   │     edit.ejs
-│   │     list.ejs
-│   │
-│   ├── appointment/
-│   │     add.ejs
-│   │     edit.ejs
-│   │     list.ejs
-│   │
-│   ├── prescription/
-│   │     add.ejs
-│   │     edit.ejs
-│   │     list.ejs
-│   │
-│   ├── report/
-│   │     add.ejs
-│   │     edit.ejs
-│   │     list.ejs
-│   │
-│   ├── dashboard.ejs
-│   └── partials/
-│         header.ejs
-│         navbar.ejs
-│         sidebar.ejs
-│         footer.ejs
-│
-├── public/
-│   ├── css/
-│   │      style.css
-│   │
-│   ├── js/
-│   │      script.js
-│   │
-│   ├── images/
-│   │
-│   └── uploads/
-│          doctors/
-│          reports/
-│
-├── .env
-├── app.js
-├── package.json
-└── README.md
